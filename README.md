@@ -1,2 +1,2 @@
 # JforceStajProje
-Udemy ve youtubedaki eğitimleri bitirdim. En geç 29 Temmuzda Login sayfasını bitirip dosyaları güncellerim.
+Login sayfası bitti. MySql de çok fazla hata yaşadığım için postgresql kullanıcam, ders videolarına başladım onun için
