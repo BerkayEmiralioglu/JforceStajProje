@@ -1,0 +1,105 @@
+html, body{
+		height: 100%;
+	}
+
+	body{
+		display: flex;
+		align-items: center;
+		background-color: #f3f5fa;
+		font-family: lato;
+	}
+
+	.input-group{
+		margin-bottom: 35px;
+		position: relative;
+	}
+
+.input{
+		display: block;
+	    width: 100%;
+	    height: 30px;
+	    border: 0;
+	    border-bottom: 2px solid #ddd;
+	    padding: 1.6em;
+	    box-sizing: border-box;
+	    background: none;
+	    outline: none;
+	    color: #78909c;
+	    transition: all 0.2s ease-in;
+	}
+
+	.input:focus{
+		border-bottom: 2px solid #615dec;
+	}
+
+label{
+	 	position: absolute;
+	 	top: 35%;
+	 	left: 39px;
+	 	color: #B0BEC5;
+	 	pointer-events: none;
+	 	font-size: meduim;
+	 	transition: all 0.3s ease;
+	}
+
+	.input-group input:focus + label,
+	.input-group input.has-value + label{
+		top: -10px;
+		font-size: xx-small;
+	}
+
+.form{
+		background-color: #f7f8f9;
+		padding: 50px;
+		border-radius: 10px;
+		-webkit-box-shadow: 0px 0px 33px 0px rgba(219,221,255,0.46);
+    	-moz-box-shadow: 0px 0px 33px 0px rgba(219,221,255,0.46);
+    	box-shadow: 0px 0px 33px 0px rgba(219, 225, 255, 0.46);
+	}
+
+	.form h1 {
+		text-align: center;
+		margin: 0 0 50px 0;
+		font-weight: 100;
+		font-size: 60px;
+		color: #615DEC;
+	}
+
+button {
+		display: block;
+		width: 100%;
+		border: none;
+		border-radius: 35px;
+		padding: 15px;
+		box-shadow: 0 5px 17px -2px rgba(102, 127, 255, 0.5);
+		color: #fff;
+		cursor: pointer;
+		outline: none;
+		transition: all 0.3s cubic-bezier(0.65, 0.05, 0.36, 1);
+		background: #718dff url(data:image/svg+xml,%3C%3Fxml%20version%3D%221.0%22%20encoding%3D%22iso-8859-1%22%3F%3E%0A%3C%21--%20Generator%3A%20Adobe%20Illustrator%2019.1.0%2C%20SVG%20Export%20Plug-In%20.%20SVG%20Version%3A%206.00%20Build%200%29%20%20--%3E%0A%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20xmlns%3Axlink%3D%22http%3A//www.w3.org/1999/xlink%22%20version%3D%221.1%22%20id%3D%22Capa_1%22%20x%3D%220px%22%20y%3D%220px%22%20viewBox%3D%220%200%2031.49%2031.49%22%20style%3D%22enable-background%3Anew%200%200%2031.49%2031.49%3B%22%20xml%3Aspace%3D%22preserve%22%20width%3D%2220px%22%20height%3D%2220px%22%3E%0A%3Cpath%20d%3D%22M21.205%2C5.007c-0.429-0.444-1.143-0.444-1.587%2C0c-0.429%2C0.429-0.429%2C1.143%2C0%2C1.571l8.047%2C8.047H1.111%20%20C0.492%2C14.626%2C0%2C15.118%2C0%2C15.737c0%2C0.619%2C0.492%2C1.127%2C1.111%2C1.127h26.554l-8.047%2C8.032c-0.429%2C0.444-0.429%2C1.159%2C0%2C1.587%20%20c0.444%2C0.444%2C1.159%2C0.444%2C1.587%2C0l9.952-9.952c0.444-0.429%2C0.444-1.143%2C0-1.571L21.205%2C5.007z%22%20fill%3D%22%23FFFFFF%22/%3E%0A%3Cg%3E%0A%3C/g%3E%0A%3Cg%3E%0A%3C/g%3E%0A%3Cg%3E%0A%3C/g%3E%0A%3Cg%3E%0A%3C/g%3E%0A%3Cg%3E%0A%3C/g%3E%0A%3Cg%3E%0A%3C/g%3E%0A%3Cg%3E%0A%3C/g%3E%0A%3Cg%3E%0A%3C/g%3E%0A%3Cg%3E%0A%3C/g%3E%0A%3Cg%3E%0A%3C/g%3E%0A%3Cg%3E%0A%3C/g%3E%0A%3Cg%3E%0A%3C/g%3E%0A%3Cg%3E%0A%3C/g%3E%0A%3Cg%3E%0A%3C/g%3E%0A%3Cg%3E%0A%3C/g%3E%0A%3C/svg%3E%0A) right 35px center no-repeat;
+	}
+	button:active{
+		background-color: #5e7dfc;
+	}
+	hr {
+		border: 0;
+    	border-top: 1px solid #e3e2ff;
+    	margin-bottom: 30px;
+	}
+
+	.password{
+		padding-left: 40px;
+		background: url(data:image/svg+xml,%3C%3Fxml%20version%3D%221.0%22%20encoding%3D%22iso-8859-1%22%3F%3E%0A%3C%21--%20Generator%3A%20Adobe%20Illustrator%2019.0.0%2C%20SVG%20Export%20Plug-In%20.%20SVG%20Version%3A%206.00%20Build%200%29%20%20--%3E%0A%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20xmlns%3Axlink%3D%22http%3A//www.w3.org/1999/xlink%22%20version%3D%221.1%22%20id%3D%22Capa_1%22%20x%3D%220px%22%20y%3D%220px%22%20viewBox%3D%220%200%2054%2054%22%20style%3D%22enable-background%3Anew%200%200%2054%2054%3B%22%20xml%3Aspace%3D%22preserve%22%20width%3D%2225px%22%20height%3D%2225px%22%3E%0A%3Cg%3E%0A%09%3Cpath%20d%3D%22M43%2C20.113V14.5C43%2C6.505%2C35.822%2C0%2C27%2C0S11%2C6.505%2C11%2C14.5v5.613c-3.401%2C0.586-6%2C3.55-6%2C7.117v19.542%20%20%20C5%2C50.757%2C8.243%2C54%2C12.229%2C54h29.542C45.757%2C54%2C49%2C50.757%2C49%2C46.771V27.229C49%2C23.663%2C46.401%2C20.699%2C43%2C20.113z%20M13%2C14.5%20%20%20C13%2C7.607%2C19.28%2C2%2C27%2C2s14%2C5.607%2C14%2C12.5V20H13V14.5z%20M47%2C46.771C47%2C49.654%2C44.654%2C52%2C41.771%2C52H12.229C9.346%2C52%2C7%2C49.654%2C7%2C46.771%20%20%20V27.229C7%2C24.346%2C9.346%2C22%2C12.229%2C22h29.542C44.654%2C22%2C47%2C24.346%2C47%2C27.229V46.771z%22%20fill%3D%22%239aaeff%22/%3E%0A%09%3Cpath%20d%3D%22M27%2C28c-2.206%2C0-4%2C1.794-4%2C4v6c0%2C2.206%2C1.794%2C4%2C4%2C4s4-1.794%2C4-4v-6C31%2C29.794%2C29.206%2C28%2C27%2C28z%20M29%2C38c0%2C1.103-0.897%2C2-2%2C2%20%20%20s-2-0.897-2-2v-6c0-1.103%2C0.897-2%2C2-2s2%2C0.897%2C2%2C2V38z%22%20fill%3D%22%239aaeff%22/%3E%0A%3C/g%3E%0A%3Cg%3E%0A%3C/g%3E%0A%3Cg%3E%0A%3C/g%3E%0A%3Cg%3E%0A%3C/g%3E%0A%3Cg%3E%0A%3C/g%3E%0A%3Cg%3E%0A%3C/g%3E%0A%3Cg%3E%0A%3C/g%3E%0A%3Cg%3E%0A%3C/g%3E%0A%3Cg%3E%0A%3C/g%3E%0A%3Cg%3E%0A%3C/g%3E%0A%3Cg%3E%0A%3C/g%3E%0A%3Cg%3E%0A%3C/g%3E%0A%3Cg%3E%0A%3C/g%3E%0A%3Cg%3E%0A%3C/g%3E%0A%3Cg%3E%0A%3C/g%3E%0A%3Cg%3E%0A%3C/g%3E%0A%3C/svg%3E%0A) left center no-repeat;
+
+	}
+	.user{
+		display: block;
+    	margin: 0 auto 50px;
+	}
+
+
+	}
+
+
+	}
+
